@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+}
+
+.houses{
+    position: relative;
+    top: -280px;
+}
+
+.grass{
+    position: relative;
+    top: -320px;
+}
+
+main{
+    position: relative;
+    top: -317px;
+}
+
+.road2{
+    position: relative;
+    top: 16px;
+}
+
+.man1{
+    position: relative;
+    top: -585px;
+    animation: man1 7s linear forwards infinite;
+}
+
+@keyframes man1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-140px);
+    }
+}
+
+.woman1{
+    position: relative;
+    top: -770px;
+    animation: woman1 12s linear forwards infinite;
+}
+
+@keyframes woman1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-100px);
+    }
+}
+
+.man2{
+    position: relative;
+    top: -930px;
+    animation: man2 12s ease-in infinite;
+}
+
+@keyframes man2{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-100px);
+    }
+}
+
+.woman2{
+    position: relative;
+    top: -1120px;
+    animation: woman2 12s linear forwards infinite;
+}
+
+@keyframes woman2{
+    from{
+        transform: translate(-100px);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+.car{
+    position: relative;
+    top: -1250px;
+    animation: car 5s linear forwards infinite;
+}
+
+@keyframes car{
+    from{
+        transform: translate(-100px);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+.car1{
+    position: relative;
+    top: -1700px;
+    animation: car1 4.5s linear forwards infinite;
+}
+
+@keyframes car1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-120px);
+    }
+}
+
+.bick1{
+    position: relative;
+    top: -1800px;
+    animation: bick1 4s linear forwards infinite;
+}
+
+@keyframes bick1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-120px);
+    }
+}
+
+.lorry1{
+    position: relative;
+    top: -1900px;
+    animation: lorry1 5.3s linear forwards infinite;
+}
+
+@keyframes lorry1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-230px);
+    }
+}
+
+.taxi1{
+    position: relative;
+    top: -2070px;
+    animation: taxi1 6s linear forwards infinite;
+}
+
+@keyframes taxi1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-210px);
+    }
+}
+
+
+.bycicle1{
+    position: relative;
+    top: -1640px;
+    animation: bycicle1 8s linear forwards infinite;
+}
+
+@keyframes bycicle1{
+    from{
+        transform: translate(100%);
+    }
+    to{
+        transform: translate(-120px);
+    }
+}
+
+.bycicle2{
+    position: relative;
+    top: -2240px;
+    animation: bycicle2 8s linear forwards infinite;
+}
+
+@keyframes bycicle2{
+    from{
+        transform: translate(-100px);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+.sport-car{
+    position: relative;
+    top: -2150px;
+    animation: sport-car 3s linear forwards infinite;
+}
+
+@keyframes sport-car{
+    from{
+        transform: translate(-100px);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+.truck{
+    position: relative;
+    top: -2100px;
+    animation: truck 4s linear forwards infinite;
+}
+
+@keyframes truck{
+    from{
+        transform: translate(-100px);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+.stretlight{
+    position: relative;
+    top: -2625px;
+    left: 130px;
+}
+
+.stretlight2{
+    position: relative;
+    top: -2830px;
+    left: 630px;
+}
+
+.stretlight3{
+    position: relative;
+    top: -3030px;
+    left: 1100px;
+}
+
+.plane{
+    position: relative;
+    top: ;
+}
+
